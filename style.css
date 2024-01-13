@@ -1,0 +1,110 @@
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    color:#DFAF5E;
+    text-align: center;
+    text-decoration: underline white solid;
+    margin-bottom: 40px;
+}
+
+h2
+{
+    color: #DFAF5E;
+}
+
+.outerCircle
+{
+    height: 40rem;
+    width: 40rem;
+    background-color: rgba(114, 114, 114, 0.587);
+    border-radius: 50%;
+    box-shadow: 8px 8px 100px white;
+    position:absolute;
+    left:29%;
+    border: 5px solid pink;
+    position:relative;
+    bottom:6.5rem;
+}
+
+.innerCircle
+{
+    position:relative;
+    bottom:17rem;
+    font-size: 4rem;
+    left:15rem;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline solid black;
+    cursor:default;
+}
+
+.color div
+{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    margin-top: 5rem;
+    margin-right: 4rem;
+    margin-left: 3.4rem;
+    box-shadow: 2px 2px 10px black;
+    transition: 0.2s;
+    cursor:pointer;
+}
+
+.color div:hover
+{
+    box-shadow: 2px 2px 10px white;
+}
+
+.color
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+audio
+{
+    display:none;
+}
+
+
+.flash
+{
+    background-color: white;
+}
+
+@media(max-width:1300px)
+{
+    h2
+    {
+        text-align: center;
+    }
+    .outerCircle
+    {
+        margin-top: 9rem;
+        margin-left: 0;
+        position:relative;
+        left:25%;
+    }
+    h1
+    {
+        position:relative;
+        left:0%;
+    }
+}
+
+p
+{
+    color:white;
+    animation: 0.5s;
+}
+
+p:hover
+{
+    font-size: 1.1em;
+    text-shadow: 2px 2px 10px white;
+}

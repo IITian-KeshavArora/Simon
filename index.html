@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Simon Game</h1>
+    <h2>Press any key to start the game</h2>
+    <h2 id="highestScore">Highest Score - 0</h2>
+    <div class="outerCircle">
+        <div class="color">
+            <div style="background-color:rgba(255,0,0,0.8);" class="gameColor" id="red"></div>
+            <div style="background-color:rgba(0,0,255,0.8);" class="gameColor" id="blue"></div>
+            <div style="background-color: rgba(0,255,0,0.8);" class="gameColor" id="green"></div>
+            <div style="background-color: rgba(255,255,0,0.8);" class="gameColor" id="yellow"></div>
+        </div>
+        <div class="innerCircle">Simon</div>
+    </div>
+    <audio id="clicksound" controls src="click_sound.mp3"></audio>
+    <audio id="gameOver" controls src="gameOVer.mp3"></audio>
+    <p>&copy; All Rights Reserved 2023 <br> Made by Keshav-Arora</p>
+
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
