@@ -32,15 +32,16 @@ function HandleEvent()
         let initialColor = colors[randomColor-1].style.backgroundColor;
         gameSeq.push(initialColor);
         console.log(gameSeq);
-        colors[randomColor-1].style.backgroundColor = 'white';
+        colors[randomColor-1].style.backgroundColor = '#A020F0';
         setTimeout(function()
         {
             colors[randomColor-1].style.backgroundColor = initialColor;
-        }, 200)
+        }, 500)
        h2.innerText = `Level - ${level}`;
        start = false;
     }
 }
+
 
 
 body.addEventListener('click', HandleEvent);
@@ -64,10 +65,10 @@ for(let button of btns)
         setTimeout(function()
         {
             button.style.backgroundColor = btnColor;
-        },100);
+        },200);
         userInputs.push(btnColor);
         console.log(userInputs);
-        setTimeout(check, 120);
+        setTimeout(check, 250);
     })
 
 }
@@ -86,11 +87,11 @@ function flash()
     let initialColor = colors[randomColor-1].style.backgroundColor;
     gameSeq.push(initialColor);
     console.log(gameSeq);
-    colors[randomColor-1].style.backgroundColor = 'white';
+    colors[randomColor-1].style.backgroundColor = '#A020F0';
     setTimeout(function()
     {
         colors[randomColor-1].style.backgroundColor = initialColor;
-    }, 200)
+    }, 500)
 }
 
 function check()
