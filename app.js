@@ -24,7 +24,7 @@ let gameSeq = [];
 let level = 1;
 let start = true;
 
-    body.addEventListener('keypress', function()
+function HandleEvent()
 {
     if(start == true)
     {
@@ -40,7 +40,11 @@ let start = true;
        h2.innerText = `Level - ${level}`;
        start = false;
     }
-})
+}
+
+
+body.addEventListener('click', HandleEvent);
+body.addEventListener('keypress', HandleEvent);
 
 
 let redbtn = document.querySelector('#red');
