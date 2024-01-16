@@ -66,6 +66,11 @@ h2
     justify-content: space-around;
 }
 
+ul li
+{
+    color: #DFAF5E;
+}
+
 audio
 {
     display:none;
