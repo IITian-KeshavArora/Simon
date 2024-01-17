@@ -31,7 +31,6 @@ function HandleEvent()
         let randomColor = Math.floor(Math.random()*4+1);
         let initialColor = colors[randomColor-1].style.backgroundColor;
         gameSeq.push(initialColor);
-        console.log(gameSeq);
         colors[randomColor-1].style.backgroundColor = '#A020F0';
         setTimeout(function()
         {
@@ -67,7 +66,6 @@ for(let button of btns)
             button.style.backgroundColor = btnColor;
         },200);
         userInputs.push(btnColor);
-        console.log(userInputs);
         setTimeout(check, 250);
     })
 
@@ -86,7 +84,6 @@ function flash()
     let randomColor = Math.floor(Math.random()*4+1);
     let initialColor = colors[randomColor-1].style.backgroundColor;
     gameSeq.push(initialColor);
-    console.log(gameSeq);
     colors[randomColor-1].style.backgroundColor = '#A020F0';
     setTimeout(function()
     {
