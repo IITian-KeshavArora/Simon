@@ -1,4 +1,4 @@
-# Desctiption
+# Description
 
 The Simon Game is a classic electronic game that serves as a memory and pattern recognition challenge. Named after its inventor Ralph H. Baer's original name for the device, "Simon" has become synonymous with the game itself. It was first introduced in 1978 and quickly gained popularity for its simple yet engaging gameplay.
 
