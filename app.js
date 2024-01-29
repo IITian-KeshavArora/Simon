@@ -5,6 +5,7 @@ let h2 = document.querySelector('h2');
 let highScore = document.querySelector('#highestScore');
 let hightestLevel = [];
 let gameBuzzer = document.querySelector('#gameOver');
+let startButton = document.querySelector('.startButton');
 
 // setting values of colors
 
@@ -43,8 +44,8 @@ function HandleEvent()
 
 
 
-body.addEventListener('click', HandleEvent);
-body.addEventListener('keypress', HandleEvent);
+startButton.addEventListener('click', HandleEvent);
+startButton.addEventListener('keypress', HandleEvent);
 
 
 let redbtn = document.querySelector('#red');
